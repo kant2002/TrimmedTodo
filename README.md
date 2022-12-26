@@ -15,7 +15,7 @@ This solution currently uses a daily .NET 7 SDK `main` build (see exact min-vers
 From the repo root, run one of the PowerShell scripts to publish and run the various apps.
 
 ```terminal
-> .\Run-TodoConsole.ps1
+> .\Run-TodoConsoleEfCoreSqlite.ps1
 Cleaning up previous run
 Publishing TrimmedTodo.Console.EfCore.Sqlite: dotnet publish -c Release -r win10-x64 --self-contained
   Determining projects to restore...
